@@ -16,8 +16,8 @@ API_HASH = os.environ.get("API_HASH", None)
 BOT_TOKEN = os.environ.get("BOT_TOKEN", None) 
 MONGO_URL = os.environ.get("MONGO_URL", None)
 BOT_USERNAME = os.environ.get("BOT_USERNAME","") 
-UPDATE_CHNL = os.environ.get("UPDATE_CHNL","BRANDRD_BOT")
-OWNER_USERNAME = os.environ.get("OWNER_USERNAME","BRANDEDKING82")
+UPDATE_CHNL = os.environ.get("UPDATE_CHNL","AboutBuying")
+OWNER_USERNAME = os.environ.get("OWNER_USERNAME","UseSense")
 SUPPORT_GRP = os.environ.get("SUPPORT_GRP","BRANDED_WORLD")
 BOT_NAME = os.environ.get("BOT_NAME","CHATBOT")
 START_IMG = os.environ.get("START_IMG","")
@@ -46,7 +46,7 @@ SOURCE_TEXT = f"""
 ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ**
 """
 SOURCE_BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('sᴏᴜʀᴄᴇ', callback_data='hurr')], [InlineKeyboardButton(" ꜱᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/{SUPPORT_GRP}"), InlineKeyboardButton(text="ʙᴀᴄᴋ ", callback_data="HELP_BACK")]])
-SOURCE = 'https://github.com/WCGKING/BRANDEDCHATBOT'
+SOURCE = 'https://github.com/linkers697/Newchat'
 x=["❤️","🎉","✨","🪸","🎉","🎈","💸"]
 g=choice(x)
 async def is_admins(chat_id: int):
@@ -90,7 +90,7 @@ PNG_BTN = [
      ],
 ]
 
-HELP_READ = "**ᴜsᴀɢᴇ ☟︎︎︎**\n**➻ ᴜsᴇ** `/chatbot on` **ᴛᴏ ᴇɴᴀʙʟᴇ ᴄʜᴀᴛʙᴏᴛ.**\n**➻ ᴜsᴇ** `/chatbot off` **ᴛᴏ ᴅɪsᴀʙʟᴇ ᴛʜᴇ ᴄʜᴀᴛʙᴏᴛ.**\n**๏ ɴᴏᴛᴇ ➻ ʙᴏᴛʜ ᴛʜᴇ ᴀʙᴏᴠᴇ ᴄᴏᴍᴍᴀɴᴅs ғᴏʀ ᴄʜᴀᴛ-ʙᴏᴛ ᴏɴ/ᴏғғ ᴡᴏʀᴋ ɪɴ ɢʀᴏᴜᴘ ᴏɴʟʏ!!**\n\n**➻ ᴜsᴇ** `/ping` **ᴛᴏ ᴄʜᴇᴄᴋ ᴛʜᴇ ᴘɪɴɢ ᴏғ ᴛʜᴇ ʙᴏᴛ.**\n||©️ @BRANDRD_BOT||"
+HELP_READ = "**ᴜsᴀɢᴇ ☟︎︎︎**\n**➻ ᴜsᴇ** `/chatbot on` **ᴛᴏ ᴇɴᴀʙʟᴇ ᴄʜᴀᴛʙᴏᴛ.**\n**➻ ᴜsᴇ** `/chatbot off` **ᴛᴏ ᴅɪsᴀʙʟᴇ ᴛʜᴇ ᴄʜᴀᴛʙᴏᴛ.**\n**๏ ɴᴏᴛᴇ ➻ ʙᴏᴛʜ ᴛʜᴇ ᴀʙᴏᴠᴇ ᴄᴏᴍᴍᴀɴᴅs ғᴏʀ ᴄʜᴀᴛ-ʙᴏᴛ ᴏɴ/ᴏғғ ᴡᴏʀᴋ ɪɴ ɢʀᴏᴜᴘ ᴏɴʟʏ!!**\n\n**➻ ᴜsᴇ** `/ping` **ᴛᴏ ᴄʜᴇᴄᴋ ᴛʜᴇ ᴘɪɴɢ ᴏғ ᴛʜᴇ ʙᴏᴛ.**\n||©️ @AboutBuying||"
 HELP_BACK = [
      
     [
@@ -131,9 +131,9 @@ async def restart(client, m: Message):
         accha = await m.reply_text(
                         text = f"{g}")                        
         await asyncio.sleep(1)
-        await accha.edit("🦋Nᴏᴡ Cᴏᴍᴇ Hᴇʀᴇ 👉 @BRANDED_WORLD , @BRANDED_PAID_CC Aɴᴅ Mᴀᴋᴇ Yᴏᴜʀ Gɪʀʟғʀɪᴇɴᴅ 🥀 Iғ Yᴏ Hᴀᴠᴇ A Gɪʀʟғʀɪᴇɴᴅ 😘 Tʜᴇɴ Yᴏᴜ Wɪʟʟ Gɪғᴛ 🙊 Tᴏ Mʏ Oᴡɴᴇʀ @BRANDEDKING8 ❤️")
+        await accha.edit("🦋Nᴏᴡ Cᴏᴍᴇ Hᴇʀᴇ 👉 @CrunchyrollAsia , @TgStickersLibrary Aɴᴅ Mᴀᴋᴇ Yᴏᴜʀ Gɪʀʟғʀɪᴇɴᴅ 🥀 Iғ Yᴏ Hᴀᴠᴇ A Gɪʀʟғʀɪᴇɴᴅ 😘 Tʜᴇɴ Yᴏᴜ Wɪʟʟ Gɪғᴛ 🙊 Tᴏ Mʏ Oᴡɴᴇʀ @AuraVisual ❤️")
         await asyncio.sleep(0.3)
-        await accha.delete("🦋Nᴏᴡ Cᴏᴍᴇ Hᴇʀᴇ 👉 @BRANDED_WORLD , @BRANDED_PAID_CC Aɴᴅ Mᴀᴋᴇ Yᴏᴜʀ Gɪʀʟғʀɪᴇɴᴅ 🥀 Iғ Yᴏ Hᴀᴠᴇ A Gɪʀʟғʀɪᴇɴᴅ 😘 Tʜᴇɴ Yᴏᴜ Wɪʟʟ Gɪғᴛ 🙊 Tᴏ Mʏ Oᴡɴᴇʀ @BRANDEDKING8 ❤️")
+        await accha.delete("🦋Nᴏᴡ Cᴏᴍᴇ Hᴇʀᴇ 👉 @CrunchyrollAsia , @TgStickersLibrary Aɴᴅ Mᴀᴋᴇ Yᴏᴜʀ Gɪʀʟғʀɪᴇɴᴅ 🥀 Iғ Yᴏ Hᴀᴠᴇ A Gɪʀʟғʀɪᴇɴᴅ 😘 Tʜᴇɴ Yᴏᴜ Wɪʟʟ Gɪғᴛ 🙊 Tᴏ Mʏ Oᴡɴᴇʀ @AuraVisual ❤️")
         umm = await m.reply_sticker(
                   sticker = STKR,
         )
@@ -186,7 +186,7 @@ async def ping(client, message: Message):
         ms = (end-start).microseconds / 1000
         await message.reply_photo(
                              photo=START_IMG,
-                             caption=f"ʜᴇʏ ʙᴀʙʏ!!\n**[{BOT_NAME}](t.me/{BOT_USERNAME})** ɪꜱ ᴀʟɪᴠᴇ 🥀 ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ꜰɪɴᴇ ᴡɪᴛʜ ᴘᴏɴɢ ᴏꜰ \n➥ `{ms}` ms\n\n**ᴍᴀᴅᴇ ᴡɪᴛʜ ❣️ ʙʏ || [BRANDED KING](https://t.me/BRANDEDKING8)||**",
+                             caption=f"ʜᴇʏ ʙᴀʙʏ!!\n**[{BOT_NAME}](t.me/{BOT_USERNAME})** ɪꜱ ᴀʟɪᴠᴇ 🌼 ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ꜰɪɴᴇ ᴡɪᴛʜ ᴘᴏɴɢ ᴏꜰ \n➥ `{ms}` ms\n\n**ᴍᴀᴅᴇ ᴡɪᴛʜ ❣️ ʙʏ || [Satyam Yadav](https://t.me/AuraVisual)||**",
                              reply_markup=InlineKeyboardMarkup(PNG_BTN),
        )
 
